@@ -1,0 +1,18 @@
+This files describes the exercises
+done to learn github commands and protocols:
+
+1. The first exercise was to creat a repository
+from github and locally. In this step the most important 
+thing is the URL address to github to be able to host
+the files.
+
+2. Then a file was created locally and the push command
+was introduced to be able to "upoload" files locally to github.
+Here the key was the command "git push"
+
+3. Then a change was done to previous created file, and was saved
+in the local repo, to then push it to github.
+
+4. The next exercise is about changing file names and deleting files.
+To that end we will work with a temporary file. The idea here is that all
+changes that are done must be commited and then pushed to github.
