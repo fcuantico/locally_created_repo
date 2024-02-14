@@ -16,3 +16,7 @@ in the local repo, to then push it to github.
 4. The next exercise is about changing file names and deleting files.
 To that end we will work with a temporary file. The idea here is that all
 changes that are done must be commited and then pushed to github.
+
+5. Exercise 7 is about moving in time to different commits, the key
+command is git checkout <commit address>, then to move back to the current
+state we use git checkout main
