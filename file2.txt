@@ -20,3 +20,25 @@ changes that are done must be commited and then pushed to github.
 5. Exercise 7 is about moving in time to different commits, the key
 command is git checkout <commit address>, then to move back to the current
 state we use git checkout main
+
+6. Exercise 8 has to do with adding labels to previous commits. Note all
+tags are created locaaly and then pushed to github. The key
+commands are:
+
+- Adding a tag Locally
+git tag -a <tagname> -m "descriptive message"
+
+- Checkout a tag
+git checkout tags/<tagname>
+
+- Pushing a tag to github
+git push origin <tagname>
+
+- Deletign a tag name locally
+git tag -d <tagname>
+
+- Deleting a tag in github
+git push -d origin <tagname>
+
+- list tags
+git tag
