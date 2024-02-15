@@ -42,3 +42,14 @@ git push -d origin <tagname>
 
 - list tags
 git tag
+
+7. What now follows is exercise 9 is about collaboration and working on the same files.
+We use:
+- git pull to pull the commits from the remote repo to our local repo
+- git will merge a file that have change locally and in the remote repo, as long 
+as the changes are not in the same line
+- git will notify when changes of the same file happen in the same line, by indicating
+there is a conflict, so that the user will have to do the correspoding changes.
+
+
+
