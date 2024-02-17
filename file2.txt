@@ -51,5 +51,21 @@ as the changes are not in the same line
 - git will notify when changes of the same file happen in the same line, by indicating
 there is a conflict, so that the user will have to do the correspoding changes.
 
+8. Exercise 10. This is about BRANCH creation, which are copies of the original project
+where we can work on without affecting the main project or main branch. The key commands are
+- Branch Creation:
+  git branch -c branch name
+  git checkout -b branch name (creates the branch and moves you to that branch)
+  
+- Branch Deletion
+  git branch -d branch name
+  through git hub (is easier)
+  
+- Branch Push
+  git push --set-upstream origin branch name
+  
+- Branch Change
+  git checkout branch name
+
 
 
