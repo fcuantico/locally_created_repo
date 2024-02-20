@@ -67,5 +67,10 @@ where we can work on without affecting the main project or main branch. The key 
 - Branch Change
   git checkout branch name
 
+9. Exercise 11. This is about holding your work to move to other branches without affecting other's work
+The key concept here is the STASH concept and the stash git command. The comands are:
 
+- git stash save <stash name> <--- Put your current work on hold in a "reserve state"
+- git stash list <--- list all your stashes
+- git stash pop <-- pops your last stash
 
