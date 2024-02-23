@@ -74,3 +74,11 @@ The key concept here is the STASH concept and the stash git command. The comands
 - git stash list <--- list all your stashes
 - git stash pop <-- pops your last stash
 
+10. Exercise 12 .This is about how to merge a branch to the main(or other possible branch). The are two forms to do this
+- through git hub (that is the merge is done in github)
+- Locally, by using the following commands:
+  1. git diff branch1...branch2
+  2. move to branch you want to merge into
+  3. git merge branch name (branch you want to merge with)
+  
+
